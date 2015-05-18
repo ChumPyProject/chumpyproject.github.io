@@ -221,6 +221,7 @@ hr {
 */
 
 .email{
+  text-align: center;
   color: rgba(182, 232, 84, 1);
   background: #101010;
   border-radius: 50px;
