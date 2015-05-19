@@ -194,7 +194,7 @@ hr {
   color: rgba(182, 232, 84, 1);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 17px;
   text-decoration: none;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
   box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.5);
@@ -215,25 +215,6 @@ hr {
 .btn-github .icon {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
-}
-
-/* Email
-*/
-
-.email{
-  text-align: center;
-  color: rgba(182, 232, 84, 1);
-  background: #101010;
-  border-radius: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  outline-offset: 50px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 19px;
-  text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
-  box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.5);
 }
 
 /* Links
@@ -266,24 +247,29 @@ a {
     input email
 
 */
+.sendgrid-subscription-widget {
+
+}
+
 .sendgrid-subscription-widget  input{
-  text-align: center;
-  color: rgba(182, 232, 84, 1);
-  background: #101010;
+  display: inline-block;
+  padding: 8px 18px;
+  background: #151515;
   border-radius: 50px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  outline-offset: 50px;
+  color: rgba(182, 232, 84, 1);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 19px;
-  text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
+  font-size: 17px;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
   box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.5);
 }
 
 .sendgrid-subscription-widget span{
-  display: none
+  display: none;
 }
 
 .sendgrid-subscription-widget label{
