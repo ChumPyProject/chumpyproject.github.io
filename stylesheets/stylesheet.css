@@ -283,5 +283,9 @@ a {
 }
 
 .sendgrid-subscription-widget span{
-  display: none;
+  display: none
+}
+
+.sendgrid-subscription-widget label{
+  display: inline;
 }
